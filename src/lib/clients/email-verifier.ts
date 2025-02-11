@@ -6,7 +6,7 @@ import type { Email } from "../values/email.js";
 
 export class EmailVerifier extends APIClient {
 	constructor() {
-		super(new URL("https://verifier.meetchopra.com"));
+		super(new URL("https://verifyright.co"));
 	}
 
 	override async before(request: Request) {

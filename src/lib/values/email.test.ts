@@ -136,7 +136,7 @@ describe(Email.name, () => {
 		test("with valid email", async () => {
 			let email = Email.from(value);
 			server.resetHandlers(
-				http.get(`https://verifier.meetchopra.com/verify/${value}`, () => {
+				http.get(`https://verifyright.co/verify/${value}`, () => {
 					return HttpResponse.json({ status: true });
 				}),
 			);
@@ -148,7 +148,7 @@ describe(Email.name, () => {
 			let email = Email.from(value);
 
 			server.resetHandlers(
-				http.get(`https://verifier.meetchopra.com/verify/${value}`, () => {
+				http.get(`https://verifyright.co/verify/${value}`, () => {
 					return HttpResponse.json({
 						status: false,
 						error: { code: 2, message: "Disposable email address" },

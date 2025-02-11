@@ -33,7 +33,7 @@ describe(EmailVerifier.name, () => {
 		let client = new EmailVerifier();
 
 		server.resetHandlers(
-			http.get(`https://verifier.meetchopra.com/verify/${email}`, () => {
+			http.get(`https://verifyright.co/verify/${email}`, () => {
 				return HttpResponse.json({ status: true });
 			}),
 		);
@@ -45,7 +45,7 @@ describe(EmailVerifier.name, () => {
 		let client = new EmailVerifier();
 
 		server.resetHandlers(
-			http.get(`https://verifier.meetchopra.com/verify/${email}`, () => {
+			http.get(`https://verifyright.co/verify/${email}`, () => {
 				return HttpResponse.json({
 					status: false,
 					error: { code: 2, message: "Disposable email address" },
