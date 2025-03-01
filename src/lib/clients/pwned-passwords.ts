@@ -7,7 +7,10 @@ export class PwnedPasswords extends APIClient {
 		super(new URL("https://api.pwnedpasswords.com"));
 	}
 
-	protected override async after(response: Response): Promise<Response> {
+	protected override async after(
+		_: Request,
+		response: Response,
+	): Promise<Response> {
 		if (response.ok) return response;
 		throw new Error(`PwnedPasswords API failed: ${response.statusText}`);
 	}

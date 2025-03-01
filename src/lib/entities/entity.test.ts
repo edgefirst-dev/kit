@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-import type { CUID } from "app:lib/string-parser";
+import { CUID } from "../parsers/string-parser";
 import { TableEntity } from "./entity";
 
 describe(TableEntity.name, () => {
