@@ -9,7 +9,6 @@ EdgeKit.js is a toolkit to helps you build on top of Cloudflare Development Plat
 - Server-side Cache with TTL
 - File Storage
 - Database
-- AI Services
 - Background Jobs
 - Scheduled Tasks
 - Browser Rendering

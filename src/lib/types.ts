@@ -1,6 +1,5 @@
 import type { BrowserWorker } from "@cloudflare/puppeteer";
 import type {
-	Ai,
 	D1Database,
 	ExecutionContext,
 	KVNamespace,
@@ -12,7 +11,6 @@ export type WaitUntilFunction = ExecutionContext["waitUntil"];
 
 export interface Environment {
 	// Cloudflare Bindings
-	AI: Ai;
 	DB: D1Database;
 	FS: R2Bucket;
 	KV: KVNamespace;

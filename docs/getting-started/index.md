@@ -18,7 +18,6 @@ EdgeKit.js is a toolkit that helps you build Edge-first applications on top of C
 - **Server-side Cache with TTL**: Cache data on the server with a time-to-live.
 - **File Storage**: Store files on the edge.
 - **Database**: Access to a database.
-- **AI Services**: Access to AI services.
 - **Background Jobs**: Run background jobs.
 - **Scheduled Tasks**: Schedule tasks to run at a specific time.
 - **Browser Rendering**: Render content on the edge.

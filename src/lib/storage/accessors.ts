@@ -71,13 +71,6 @@ export function headers() {
 }
 
 /**
- * Run machine learning models, such as LLMs in your Edge-first application.
- */
-export function ai() {
-	return storage.access("ai");
-}
-
-/**
  * Access the geolocation information of the request in your Edge-first
  * application.
  */

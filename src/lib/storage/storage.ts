@@ -4,7 +4,6 @@ import { WorkerKVRateLimit } from "@edgefirst-dev/worker-kv-rate-limit";
 import SuperHeaders from "@mjackson/headers";
 import type { Logger } from "drizzle-orm";
 import { DrizzleD1Database, drizzle } from "drizzle-orm/d1";
-import { AI } from "../ai/ai.js";
 import { Cache } from "../cache/cache.js";
 import { Env } from "../env/env.js";
 import { EdgeContextError } from "../errors.js";
@@ -19,7 +18,6 @@ import type {
 } from "../types.js";
 
 export interface EdgeFirstContext {
-	ai?: AI;
 	bindings: Environment;
 	cache?: Cache;
 	env: Env;
@@ -45,7 +43,6 @@ class Storage extends AsyncLocalStorage<EdgeFirstContext> {
 
 		return this.run<T>(
 			{
-				ai: env.AI && new AI(env.AI),
 				bindings: env,
 				cache: env.KV && new Cache(env.KV),
 				env: new Env(env),

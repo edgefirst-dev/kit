@@ -1,4 +1,3 @@
-export type { AI } from "./lib/ai/ai.js";
 export type { Environment, DatabaseSchema } from "./lib/types.js";
 export type { Cache } from "./lib/cache/cache.js";
 export type { Env } from "./lib/env/env.js";
@@ -12,7 +11,6 @@ export type { WorkerKVRateLimit } from "@edgefirst-dev/worker-kv-rate-limit";
 export { Job } from "./lib/jobs/job.js";
 export { Task } from "./lib/tasks/task.js";
 export {
-	ai,
 	bindings,
 	cache,
 	env,
