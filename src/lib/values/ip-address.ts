@@ -1,5 +1,5 @@
-import { isIP } from "node:net";
 import type { Request } from "@cloudflare/workers-types";
+import { ipVersion, isIP } from "is-ip";
 
 /**
  * The `IPAddress` class represents an IP address, providing methods to
@@ -80,8 +80,8 @@ export class IPAddress {
 	 * @throws {Error} If the IP address is invalid.
 	 */
 	get version(): 6 | 4 {
-		if (isIP(this.value) === 4) return 4;
-		if (isIP(this.value) === 6) return 6;
+		let version = ipVersion(this.value);
+		if (version) return version;
 		throw new Error(`Invalid IP address: ${this.value}`);
 	}
 
@@ -110,7 +110,7 @@ export class IPAddress {
 	 * @returns `true` if the IP address is valid, otherwise `false`.
 	 */
 	private isValid(ip: string) {
-		return isIP(ip) !== 0;
+		return isIP(ip);
 	}
 
 	/**
