@@ -103,4 +103,12 @@ describe(Password.name, () => {
 
 		expect(password.isStrong()).resolves.toBeUndefined();
 	});
+
+	test("#toJSON", () => {
+		let password = Password.from("password");
+		expect(password.toJSON()).toBe("<REDACTED>");
+		expect(JSON.stringify({ password })).toMatchInlineSnapshot(
+			`"{"password":"<REDACTED>"}"`,
+		);
+	});
 });
