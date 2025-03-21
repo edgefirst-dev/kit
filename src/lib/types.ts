@@ -9,7 +9,7 @@ import type {
 
 export type WaitUntilFunction = ExecutionContext["waitUntil"];
 
-export interface Environment {
+export interface Environment extends Cloudflare.Env {
 	// Cloudflare Bindings
 	DB: D1Database;
 	FS: R2Bucket;
