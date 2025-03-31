@@ -4,7 +4,7 @@
     "": {
       "name": "edgekitjs",
       "dependencies": {
-        "@cloudflare/puppeteer": "^0.0.14",
+        "@cloudflare/puppeteer": "^0.0.15",
         "@edgefirst-dev/api-client": "^0.1.0",
         "@edgefirst-dev/data": "^0.0.4",
         "@edgefirst-dev/r2-file-storage": "^1.1.0",
@@ -75,7 +75,7 @@
 
     "@cloudflare/kv-asset-handler": ["@cloudflare/kv-asset-handler@0.4.0", "", { "dependencies": { "mime": "^3.0.0" } }, "sha512-+tv3z+SPp+gqTIcImN9o0hqE9xyfQjI1XD9pL6NuKjua9B1y7mNYv0S9cP+QEbA4ppVgGZEmKOvHX5G5Ei1CVA=="],
 
-    "@cloudflare/puppeteer": ["@cloudflare/puppeteer@0.0.14", "", { "dependencies": { "@puppeteer/browsers": "1.7.0", "chromium-bidi": "0.4.20", "cross-fetch": "4.0.0", "debug": "4.3.4", "devtools-protocol": "0.0.1159816", "ws": "8.13.0" } }, "sha512-wglNG53M4LbLnaU8i14bWNA3fUqKQy17Spczo+PWaGZO1W6m8rzi6u/x49BZ/s3LGg0VJHK4ZaLjkXo2/5ESdA=="],
+    "@cloudflare/puppeteer": ["@cloudflare/puppeteer@0.0.15", "", { "dependencies": { "@puppeteer/browsers": "1.7.0", "chromium-bidi": "0.4.20", "cross-fetch": "4.0.0", "debug": "4.3.4", "devtools-protocol": "0.0.1159816", "ws": "8.13.0" } }, "sha512-Tj077XaqLCaTRuPuN1XlxkIyvNjfHGY6pvwH5iht3liHWctiUeKDwZu+g8/8iu1mLRjhRqbtRQKUaCXHNhPMUg=="],
 
     "@cloudflare/unenv-preset": ["@cloudflare/unenv-preset@2.3.0", "", { "peerDependencies": { "unenv": "2.0.0-rc.15", "workerd": "^1.20250311.0" }, "optionalPeers": ["workerd"] }, "sha512-AaKYnbFpHaVDZGh3Hjy3oLYd12+LZw9aupAOudYJ+tjekahxcIqlSAr0zK9kPOdtgn10tzaqH7QJFUWcLE+k7g=="],
 

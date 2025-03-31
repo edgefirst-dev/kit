@@ -46,7 +46,7 @@
 		"drizzle-orm": "^0.40.0"
 	},
 	"dependencies": {
-		"@cloudflare/puppeteer": "^0.0.14",
+		"@cloudflare/puppeteer": "^0.0.15",
 		"@edgefirst-dev/api-client": "^0.1.0",
 		"@edgefirst-dev/data": "^0.0.4",
 		"@edgefirst-dev/r2-file-storage": "^1.1.0",
