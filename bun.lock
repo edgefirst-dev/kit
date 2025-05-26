@@ -99,7 +99,7 @@
 
     "@edgefirst-dev/data": ["@edgefirst-dev/data@0.0.4", "", {}, "sha512-VLhlvEPDJ0Sd0pE6sAYTQkIqZCXVonaWlgRJIQQHzfjTXCadF77qqHj5NxaPSc4wCul0DJO/0MnejVqJAXUiRg=="],
 
-    "@edgefirst-dev/r2-file-storage": ["@edgefirst-dev/r2-file-storage@1.1.0", "", { "peerDependencies": { "@cloudflare/workers-types": "^4.20250320.0", "@mjackson/file-storage": "^0.6.1" } }, "sha512-HT6Isrhp6Ewd1j2xpREFcSVLeARK+emrMwnYJ2gQsGCA9LdTu2+k3l8KTE/dbHpVvy5c9g4J0rjAuxnNV1LjtA=="],
+    "@edgefirst-dev/r2-file-storage": ["@edgefirst-dev/r2-file-storage@1.3.0", "", { "peerDependencies": { "@cloudflare/workers-types": "^4.20250523.0", "@mjackson/file-storage": "^0.6.1" } }, "sha512-3NF4y3fd+tgDmFotlc6JXh8Pc1I7RrAnTMbmt/0Ds059ceQMV1YatQUEkj75ybHsbBCXYlOitxQrbbpcPuHNtg=="],
 
     "@edgefirst-dev/worker-kv-rate-limit": ["@edgefirst-dev/worker-kv-rate-limit@1.0.0", "", { "dependencies": { "@cloudflare/workers-types": "^4.20240903.0" } }, "sha512-YV3HMDmyzP/oBfTmqdlZoKebIlgk50pXakYyK0rdp8D9bxoGD9P5fM8fgJS1W2AWPYTmmskJhNn+ppah1vmjiA=="],
 
