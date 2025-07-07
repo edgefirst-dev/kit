@@ -47,7 +47,7 @@
 	},
 	"dependencies": {
 		"@cloudflare/puppeteer": "^1.0.1",
-		"@edgefirst-dev/api-client": "^0.1.0",
+		"@edgefirst-dev/api-client": "^0.2.0",
 		"@edgefirst-dev/data": "^0.0.4",
 		"@edgefirst-dev/r2-file-storage": "^1.1.0",
 		"@edgefirst-dev/worker-kv-rate-limit": "^1.0.0",
