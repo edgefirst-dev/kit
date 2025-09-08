@@ -5,7 +5,7 @@
       "name": "edgekitjs",
       "dependencies": {
         "@cloudflare/puppeteer": "^1.0.1",
-        "@edgefirst-dev/api-client": "^0.1.0",
+        "@edgefirst-dev/api-client": "^0.3.0",
         "@edgefirst-dev/data": "^0.0.4",
         "@edgefirst-dev/r2-file-storage": "^1.1.0",
         "@edgefirst-dev/worker-kv-rate-limit": "^1.0.0",
@@ -93,7 +93,7 @@
 
     "@cspotcode/source-map-support": ["@cspotcode/source-map-support@0.8.1", "", { "dependencies": { "@jridgewell/trace-mapping": "0.3.9" } }, "sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw=="],
 
-    "@edgefirst-dev/api-client": ["@edgefirst-dev/api-client@0.1.0", "", {}, "sha512-8K++H9Bck1h80gDz8q9B77CC1kFu8YnNnNgREdxj4/PniUNad9TPSFGwlCH2ex+thc+s8O9tVm2k2v7Gd4HV0g=="],
+    "@edgefirst-dev/api-client": ["@edgefirst-dev/api-client@0.3.0", "", {}, "sha512-x47XQgrDuX89RGvqvs+0MeHJ6IcWDCuoS2ht5oA0og6/GtVh5OvMTiwzzzigkHdj/LXGtCv60zg7E8VAJKiXoQ=="],
 
     "@edgefirst-dev/data": ["@edgefirst-dev/data@0.0.4", "", {}, "sha512-VLhlvEPDJ0Sd0pE6sAYTQkIqZCXVonaWlgRJIQQHzfjTXCadF77qqHj5NxaPSc4wCul0DJO/0MnejVqJAXUiRg=="],
 
