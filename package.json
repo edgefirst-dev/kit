@@ -60,7 +60,7 @@
 		"bowser": "^2.11.0",
 		"inflected": "^2.1.0",
 		"is-ip": "^5.0.1",
-		"type-fest": "^4.30.0"
+		"type-fest": "^5.0.0"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.18.1",
