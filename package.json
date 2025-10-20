@@ -55,7 +55,7 @@
 		"@mjackson/headers": "^0.11.1",
 		"@oslojs/crypto": "^1.0.1",
 		"@oslojs/encoding": "^1.1.0",
-		"@paralleldrive/cuid2": "^2.2.2",
+		"@paralleldrive/cuid2": "^3.1.0",
 		"bcryptjs": "^3.0.0",
 		"bowser": "^2.11.0",
 		"inflected": "^2.1.0",
